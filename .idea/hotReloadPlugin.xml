@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="HotReloadPluginConfiguration">
+    <option name="hostNameKeyword" value="" />
+    <option name="keywords">
+      <list>
+        <option value="8888" />
+      </list>
+    </option>
+    <option name="selectedHostName" value="Default" />
+    <option name="selectedProcess">
+      <JvmProcess>
+        <option name="detailVmArgs" value="--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Djava.util.logging.config.file=/home/root/tomcat_8888/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms4G -Xmx8G -XX:+UseStringDeduplication -XX:ThreadStackSize=256 -Djmagick.systemclassloader=false -Djuli-logback.configurationFile=file:/home/root/tomcat_8888/conf/logback.xml -DLOG_PATH=/data/logs/8888 -DLOG_HOME=/data/logs/8888 -DSERVER_PORT=8888 -Dpush.tail=0 -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dignore.endorsed.dirs= -Dcatalina.base=/home/root/tomcat_8888 -Dcatalina.home=/home/root/tomcat_8888 -Djava.io.tmpdir=/home/root/tomcat_8888/temp" />
+        <option name="displayName" value="org.apache.catalina.startup.Bootstrap start" />
+        <option name="pid" value="1693586" />
+      </JvmProcess>
+    </option>
+    <option name="server" value="172.29.72.17:18806" />
+  </component>
+</project>
