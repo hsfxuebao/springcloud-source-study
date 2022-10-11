@@ -1,0 +1,22 @@
+
+server:
+  port: 7200
+
+spring:
+  application:
+    name: eureka-consumer-7200
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true

@@ -4,10 +4,13 @@
     <option name="BUILD_PROCESS_HEAP_SIZE" value="5000" />
     <option name="BUILD_PROCESS_ADDITIONAL_VM_OPTIONS" value="-Xmx10g" />
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-consumer-7200" />
+        <module name="eureka-provider-7100" />
         <module name="eureka-server-7000" />
       </profile>
     </annotationProcessing>

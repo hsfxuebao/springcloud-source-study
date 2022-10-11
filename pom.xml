@@ -7,10 +7,15 @@
     <groupId>com.hsf.cloud</groupId>
     <artifactId>springcloud-source-study</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+
     <modules>
         <module>eureka-server-7000</module>
+        <module>eureka-provider-7100</module>
+        <module>eureka-consumer-7200</module>
     </modules>
-    <packaging>pom</packaging>
+
 
 
     <!-- 统一管理jar包版本 -->

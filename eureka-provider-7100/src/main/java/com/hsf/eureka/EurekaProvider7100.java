@@ -2,17 +2,16 @@ package com.hsf.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * @author hsfxuebao
- * Created on 2022-10-10
+ * Created on 2022-10-11
  */
 @SpringBootApplication
-@EnableEurekaServer
-public class EurekaServer {
+public class EurekaProvider7100 {
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaServer.class, args);
+        SpringApplication.run(EurekaProvider7100.class);
     }
+
 }
