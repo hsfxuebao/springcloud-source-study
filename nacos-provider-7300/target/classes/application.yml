@@ -1,0 +1,29 @@
+server:
+  port: 7300
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+#        # 默认为public
+#        namespace: my_hsf_id
+#        # 默认为DEFAULT_GROUP
+#        group: my_hsf_group
+#        # 默认为DEFAULT，注意，不能存在下划线
+#        cluster-name: myhsfCluster
+
+  application:
+    name: nacos-provider-depart
+
+
+
+logging:
+  pattern:
+    console: level-%level %msg%n
+  level:
+    root: info
+    org.hibernate: info
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+    org.hibernate.type.descriptor.sql.BasicExtractor: trace
+    com.abc: debug

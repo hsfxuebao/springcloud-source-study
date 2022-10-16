@@ -10,6 +10,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7000/eureka
+    # 客户端从服务端下载更新注册表的时间间隔，默认30s
+    registry-fetch-interval-seconds: 30
+    # 指定client从server更新注册表的最大时间间隔指数（倍数），默认为10
+    cache-refresh-executor-exponential-back-off-bound: 10
 
 
 management:
