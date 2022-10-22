@@ -9,11 +9,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-provider-7100" />
+        <module name="eureka-server-7000" />
+        <module name="nacos-consumer-7400" />
+        <module name="nacos-provider-config-7500" />
         <module name="nacos-provider-7300" />
         <module name="eureka-consumer-7200" />
-        <module name="eureka-provider-7100" />
-        <module name="nacos-consumer-7400" />
-        <module name="eureka-server-7000" />
       </profile>
     </annotationProcessing>
   </component>

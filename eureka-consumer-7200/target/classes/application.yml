@@ -16,9 +16,6 @@ eureka:
     cache-refresh-executor-exponential-back-off-bound: 10
 
 
-
-
-
 management:
   endpoints:
     web:

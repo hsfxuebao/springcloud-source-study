@@ -11,5 +11,7 @@
     <file url="file://$PROJECT_DIR$/nacos-consumer-7400/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-provider-7300/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-provider-7300/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-provider-config-7500/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-provider-config-7500/src/main/resources" charset="UTF-8" />
   </component>
 </project>
