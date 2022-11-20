@@ -16,4 +16,4 @@ spring:
           predicates:   # 断言，也就是路由条件 ，这里使用了path作为路由条件
             - Path=/depart-provider/**
           filters:
-            - StripPrefix=1
+            - StripPrefix=1 # 转发之前去掉一层路径
