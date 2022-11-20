@@ -6,12 +6,15 @@ spring:
   application:
     name: nacos-gateway
   cloud:
+    # 配置路由，可以配置多个
     gateway:
       routes:
-        - id: depart-provider
-          uri: lb://nacos-provider-depart
+        - id: depart-provider # id 自定义路由的id
+#          uri: localhost:7300 # uri就是 目标服务地址
+          uri: lb://nacos-provider-depart  # 微服务模式
           order: 1
-          predicates:
+          predicates:   # 断言，也就是路由条件 ，这里使用了path作为路由条件
             - Path=/depart-provider/**
+            - Custom=hsfxuebao
           filters:
-            - StripPrefix=1
+            - StripPrefix=1 # 转发之前去掉一层路径
