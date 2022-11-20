@@ -18,6 +18,7 @@
         <module>nacos-consumer-7400</module>
         <module>nacos-provider-config-7500</module>
         <module>naocs-consumer-feign-7600</module>
+        <module>nacos-gateway-7700</module>
     </modules>
 
 

@@ -15,6 +15,7 @@
         <module name="nacos-provider-config-7500" />
         <module name="nacos-provider-7300" />
         <module name="naocs-consumer-feign-7600" />
+        <module name="nacos-gateway-7700" />
         <module name="eureka-consumer-7200" />
       </profile>
     </annotationProcessing>

@@ -1,0 +1,17 @@
+
+server:
+  port: 7700
+
+spring:
+  application:
+    name: nacos-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: depart-provider
+          uri: lb://nacos-provider-depart
+          order: 1
+          predicates:
+            - Path=/depart-provider/**
+          filters:
+            - StripPrefix=1
